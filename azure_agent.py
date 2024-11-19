@@ -66,4 +66,4 @@ for query in queries:
     )
     time_taken = time.time() - start_time
     print(f"Query: {query}\nResponse: {response['output']}")
-    print(f"Time taken: {time_taken}")
+    print(f"Time taken: {time_taken} seconds")
