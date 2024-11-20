@@ -35,7 +35,7 @@ prompt = ChatPromptTemplate.from_messages(
 
 # Initialize the AzureChatOpenAI model
 model = AzureChatOpenAI(
-    azure_deployment="gpt-4o-mini", api_version=AZURE_API_VERSION, temperature=0
+    azure_deployment="gpt-4o", api_version=AZURE_API_VERSION, temperature=0
 )
 
 # Define the tools
